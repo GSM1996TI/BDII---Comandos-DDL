@@ -21,9 +21,9 @@ O script `comandos_ddl.sql` executa as seguintes etapas:
 
 ### 1️ Criação do Banco de Dados
 ```sql
-CREATE DATABASE User;
+CREATE DATABASE Pessoa;
 DROP TABLE Endereco;
 DROP TABLE Telefone;
 DROP TABLE Cliente;
 USE information_schema;
-DROP DATABASE User;
+DROP DATABASE Pessoa;
